@@ -1,0 +1,261 @@
+@media screen and (min-width: 300px){
+    .small{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+
+    }
+    .nav-links{
+        display: none;
+
+    }
+    .nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: green;
+        left: 0;
+        top: 75px;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    .home,
+    .groceries,
+    .foods,
+    .households,
+    .recipes,
+    .food-blog,
+    .stores,
+    .contact-us{
+        color: #fff;
+        text-align: left;
+        font-size: 13px;
+        padding: 0px 20px;
+        margin: 20px 30px;
+    }
+    .phone-menu-icon{
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: orange;
+        background-color: #FFFF;
+        border: none;
+        outline: none;
+        top: 50px;
+        right: 325px;
+
+    }
+    .logo{
+        width: 50px;
+        margin-left: 30px;
+        margin-top: 35px;
+    }
+    .alt-logo{
+        width: 50px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: left;
+        height: 75px;
+        background-color: #fff;
+        margin-top: -25px;
+    }
+    .nav-links{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 330px;
+        list-style: none;
+        
+    }
+    .home,
+    .groceries,
+    .foods,
+    .households,
+    .recipes,
+    .food-blog,
+    .stores,
+    .contact-us{
+        text-decoration: none;
+        color: orange;
+        font-size: 13px;
+        margin: 0px 55px;
+        cursor: pointer;
+        font-weight: 500;
+        margin-top: -10px;
+        margin-left: -30px;
+    }
+    .home:hover,
+    .groceries:hover,
+    .foods:hover,
+    .households:hover,
+    .recipes:hover,
+    .food-blog:hover,
+    .stores:hover,
+    .contact-us:hover{
+        color: orange;
+    }
+    .groceries{
+        margin-left: -80px;
+    }
+    .foods{
+        margin-left: -60px;
+        width: 150px;
+    }
+    .households{
+        margin-left: -110px;
+        width: 250px;
+    }
+    .recipes{
+        margin-left: -100px;
+        width: 100px;
+    }
+    .food-blog{
+        margin-left: -100px;
+        width: 150px;
+    }
+    .stores{
+        margin-left: -120px;
+        width: 150px;
+    }
+    .contact-us{
+        margin-left: -125px;
+        width: 150px;
+    }
+    .phone-menu-icon{
+        display: none;
+    }
+    .logo{
+        width: 80px;
+        margin-top: -10px;
+    }
+    .alt-logo{
+        width: 50px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (min-width: 800px){
+    .navbar{
+        width: 100%;
+        justify-content: space-around;
+        align-items: left;
+        height: 75px;
+        background-color: #FFFF;
+    }
+    .nav-links{
+        margin-right: 720px;
+        list-style: none;
+    }
+    .home,
+    .groceries,
+    .foods,
+    .households,
+    .recipes,
+    .food-blog,
+    .stores,
+    .contact-us{
+        text-decoration: none;
+        color: orange;
+        font-size: 13px;
+        margin: 0px 55px;
+        cursor: pointer;
+        font-weight: 500;
+    }
+    .groceries{
+        margin-left: -60px;
+    }
+    .foods{
+        margin-left: -60px;
+        width: 150px;
+    }
+    .households{
+        margin-left: -100px;
+        width: 250px;
+    }
+    .recipes{
+        margin-left: -80px;
+        width: 100px;
+    }
+    .food-blog{
+        margin-left: -70px;
+        width: 150px;
+    }
+    .stores{
+        margin-left: -110px;
+        width: 150px;
+    }
+    .contact-us{
+        margin-left: -100px;
+        width: 150px;
+    }
+
+    .phone-menu-icon{
+        display: none;
+    }
+    .logo{
+        width: 80px;
+        margin-top: -5px;
+        margin-left: 0px;
+    }
+    .alt-logo{
+        width: 80px;
+        margin-top: -5px;
+        margin-left: 0px;
+    }
+    .grocery-btn{
+        position: absolute;
+        background-color: white;
+        border: 0;
+        margin-left: 60px;
+        top: 212px;
+    }
+    .grocery-select{
+        margin-left: -11px;
+        border: 0;
+    }
+    .foods-btn{
+        position: absolute;
+        background-color: white;
+        border: 0;
+        margin-left: 76px;
+        top: 212px;
+    }
+    .foods-select{
+        margin-left: -7px;
+        border: 0;
+    }
+    .households-btn{
+        position: absolute;
+        background-color: white;
+        border: 0;
+        margin-left: 178px;
+        top: 212px;
+    }
+    .households-select{
+        margin-left: -5px;
+        border: 0;
+    }
+    .recipes-btn{
+        position: absolute;
+        background-color: white;
+        border: 0;
+        margin-left: 47px;
+        top: 212px;
+    }
+    .recipes-select{
+        margin-left: -5px;
+        border: 0;
+    }
+    
+
+}
